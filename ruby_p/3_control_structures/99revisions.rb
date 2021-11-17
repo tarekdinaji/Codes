@@ -143,3 +143,70 @@ end
 
 -------------------------------------------------------------------------------------
 
+Loops > loop do 
+
+#Basic structure
+  loop do
+    # Codes - gets checked over and over
+  end
+
+# Since we can not let it loop indefinately we need to add a breaking element
+loop do
+    # Codes - gets checked over and over
+    # Conditionals to break the loop
+  end
+
+# Example of loop do 
+i = 5
+loop do
+    break if i <= 0
+    puts "Countdown: #{i}"
+    i -= 1
+end
+puts "Blast off!"
+
+-------------------------------------------------------------------------------------
+
+Loop > while loop && until loop
+
+#basic structure
+  while boolean
+    # as long as the boolean is true the loop will operate
+  end
+
+# Until loop is the opposite of the while loop
+# basic structure
+  until boolean
+    # as long as the boolean is false the loop will operate
+  end
+
+x = 2 
+y = 15
+
+# Example of while loop
+while x<=y 
+  puts x
+  x += 1
+end
+
+# Example of until loop
+until x>y 
+    puts x
+    x += 1
+  end
+
+
+
+i = 10
+while i > 0
+    puts "Count down: #{i}"
+    i -= 1
+end
+puts "Lift off!"
+
+# Important operator for Loop 
+=begin
+  * break = Terminate the whole loop
+  * next = next loop
+  * redo = redo the loop
+=end
