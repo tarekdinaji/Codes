@@ -22,7 +22,6 @@ puts customerx[‘age’]
 # নতুন ডাটা যোগ করতে চাইলে 
 
 customerx[‘nationality’] = “Bangladeshi”
-customerx.inspect
 
 # Another example
 car = {"brand" => "Toyota", "model" => "CHR", "color" => "Ash"}

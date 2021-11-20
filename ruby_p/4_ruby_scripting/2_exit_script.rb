@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-#nextS
+#next
 #break
 #exit (break breaks the loop, exit exits the whole programs)
 #abort(msg)
